@@ -1,7 +1,7 @@
 if SHIELD_LALAPADGEN2_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "LalapadGen2"
+    default "LalapadGen2_New"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
