@@ -90,7 +90,7 @@
             bindings = <
 &kp PIPE          &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES                  &kp GRAVE         &kp N7             &kp N8        &kp N9        &kp EQUAL
 &kp LEFT_SHIFT    &kp N7             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE                          &kp COMMA         &kp NUMBER_4       &kp N5        &kp NUMBER_6  &trans
-&kp EXCL          &kp QUESTION       &kp SEMICOLON         &kp COLON              &kp UNDER                          &kp PERIOD        &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &trans
+&mt2 LCTRL EXCL   &kp QUESTION       &kp SEMICOLON         &kp COLON              &kp UNDER                          &kp PERIOD        &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &trans
 &trans            &trans             &trans                &trans                 &trans             &trans  &trans  &kp DEL           &kp N0             &trans        &trans        &trans
                   &trans             &trans                &trans                 &trans             &trans  &trans  &trans            &trans             &trans        &trans
 &trans            &trans             &trans                                                                                                               &trans        &trans        &trans
@@ -101,13 +101,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp F12              &kp F7  &kp F8  &kp F9  &kp LA(F4)                           &kp LS(LG(S))  &kp HOME                &kp UP_ARROW    &kp END          &trans
-&mt2 LEFT_SHIFT F11  &kp F4  &kp F5  &kp F6  &kp LG(LEFT_ARROW)                   &trans         &kp LEFT                &kp DOWN_ARROW  &kp RIGHT        &trans
-&kp F10              &kp F1  &kp F2  &kp F3  &kp LG(RIGHT_ARROW)                  &kp LG(TAB)    &kp LG(LC(LEFT_ARROW))  &trans          &kp LC(LG(TAB))  &trans
-&trans               &trans  &trans  &trans  &trans               &trans  &trans  &kp DELETE     &trans                  &trans          &trans           &trans
-                     &trans  &trans  &trans  &trans               &trans  &trans  &trans         &trans                  &trans          &trans
-&trans               &trans  &trans                                                                                      &trans          &trans           &trans
-&trans               &trans  &trans  &trans  &trans                               &trans         &trans                  &trans          &trans           &trans
+&mt2 LEFT_ALT F12      &kp F7  &kp F8  &kp F9  &kp LA(F4)                           &kp LS(LG(S))  &kp HOME                &kp UP_ARROW    &kp END            &trans
+&mt2 LEFT_SHIFT F11    &kp F4  &kp F5  &kp F6  &kp LG(LEFT_ARROW)                   &trans         &kp LEFT                &kp DOWN_ARROW  &kp RIGHT          &trans
+&mt2 LEFT_CONTROL F10  &kp F1  &kp F2  &kp F3  &kp LG(RIGHT_ARROW)                  &trans         &kp LG(LC(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT))  &trans
+&trans                 &trans  &trans  &trans  &trans               &trans  &trans  &kp DELETE     &trans                  &trans          &trans             &trans
+                       &trans  &trans  &trans  &trans               &trans  &trans  &trans         &trans                  &trans          &trans
+&trans                 &trans  &trans                                                                                      &trans          &trans             &trans
+&trans                 &trans  &trans  &trans  &trans                               &trans         &trans                  &trans          &trans             &trans
             >;
         };
 
