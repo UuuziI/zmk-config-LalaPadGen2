@@ -79,7 +79,7 @@
 &mt2 LEFT_SHIFT A    &kp S       &kp D         &kp F              &kp G                                 &kp H            &kp J                &kp K        &kp L       &mt2 LEFT_SHIFT MINUS
 &mt2 LEFT_CONTROL Z  &kp X       &kp C         &kp V              &kp B                                 &kp N            &kp M                &kp COMMA    &kp PERIOD  &mt2 LEFT_CONTROL SLASH
 &kp LCTRL            &kp LWIN    &kp LEFT_ALT  &lt 2 SPACE        &mo 1      &mkp MB1         &mkp MB3  &lt 1 BACKSPACE  &mt2 LEFT_SHIFT RET  &mkp MB1     &mkp MB3    &mkp MB2
-                     &kp K_MUTE  &mkp MB5      &kp C_VOLUME_DOWN  &mkp MB4   &kp C_VOLUME_UP  &kp UP    &kp LEFT         &kp DOWN             &kp RIGHT    &mo 3
+                     &kp C_MUTE  &mkp MB5      &kp C_VOLUME_DOWN  &mkp MB4   &kp C_VOLUME_UP  &kp UP    &kp LEFT         &kp DOWN             &kp RIGHT    &mo 3
 &mkp LCLK            &mkp RCLK   &mkp MCLK                                                                                                    &mkp LCLK    &mkp RCLK   &mkp MCLK
 &mkp MB4             &mkp MB5    &kp LG(TAB)   &kp LG(D)          &kp LCTRL                             &mkp MB4         &mkp MB5             &kp LG(TAB)  &kp LG(D)   &kp LCTRL
             >;
