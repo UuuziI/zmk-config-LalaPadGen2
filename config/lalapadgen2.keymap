@@ -101,13 +101,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&mt2 LEFT_ALT F12      &kp F7  &kp F8  &kp F9  &kp LA(F4)                           &kp LS(LG(S))  &kp HOME                &kp UP_ARROW    &kp END            &trans
-&mt2 LEFT_SHIFT F11    &kp F4  &kp F5  &kp F6  &kp LG(LEFT_ARROW)                   &trans         &kp LEFT                &kp DOWN_ARROW  &kp RIGHT          &trans
-&mt2 LEFT_CONTROL F10  &kp F1  &kp F2  &kp F3  &kp LG(RIGHT_ARROW)                  &trans         &kp LG(LC(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT))  &trans
-&trans                 &trans  &trans  &trans  &trans               &trans  &trans  &kp DELETE     &trans                  &trans          &trans             &trans
-                       &trans  &trans  &trans  &trans               &trans  &trans  &trans         &trans                  &trans          &trans
-&trans                 &trans  &trans                                                                                      &trans          &trans             &trans
-&trans                 &trans  &trans  &trans  &trans                               &trans         &trans                  &trans          &trans             &trans
+&mt2 LEFT_ALT F12       &kp F7                   &kp F8  &kp F9  &kp LA(F4)                           &kp LS(LG(S))           &kp HOME                 &kp UP_ARROW    &kp END    &trans
+&mt2 LEFT_SHIFT F11     &kp F4                   &kp F5  &kp F6  &kp LG(LEFT_ARROW)                   &trans                  &kp LEFT                 &kp DOWN_ARROW  &kp RIGHT  &trans
+&mt2 LEFT_CONTROL F10   &kp F1                   &kp F2  &kp F3  &kp LG(RIGHT_ARROW)                  &trans                  &trans                   &trans          &trans     &trans
+&trans                  &trans                   &trans  &trans  &trans               &trans  &trans  &kp DELETE              &trans                   &trans          &trans     &trans
+                        &trans                   &trans  &trans  &trans               &trans  &trans  &trans                  &trans                   &trans          &trans
+&trans                  &trans                   &trans                                                                                                &trans          &trans     &trans
+&kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans  &trans  &trans                               &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans          &trans     &trans
             >;
         };
 
